@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 100px;
+  margin: 3% 16%;
+}
+
+.dataCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.dataCardHeader {
+  display: flex;
+  gap: 20px;
+}
+
+.list-items {
+  list-style: none;
+  border: 2px solid rgb(130, 218, 15);
+  font-weight: 600;
+  padding: 0;
+}
+
+.list-items li {
+  padding: 2px 5px;
+}
+
+.list-items li:nth-child(odd) {
+  background-color: rgb(196, 183, 183);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+form button {
+  margin-top: 10px;
+  width: fit-content;
+  margin-left: auto;
+}
+
+.dataCard button {
+  margin-top: 25px;
+  height: max-content;
+}
