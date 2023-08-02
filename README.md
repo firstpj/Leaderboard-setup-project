@@ -54,7 +54,7 @@ Installed node.js and any IDE like Visual Studio Code.
 Clone this repository to your desired folder:
 https://github.com/firstpj/leaderboard-setup-project.git
 
-Change directory Todo-List in your terminal
+Change directory leaderboard-setup-project in your terminal
 ### Install
 
 Install this project with:
