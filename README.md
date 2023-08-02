@@ -51,7 +51,9 @@ Installed node.js and any IDE like Visual Studio Code.
 Clone this repository to your desired folder:
 https://github.com/firstpj/leaderboard-setup-project.git
 
-Change directory Todo-List in your terminal
+Change the directory Lidearboard-setup-project in your terminal
+**[live demo]**https://firstpj.github.io/Leaderboard-setup-project/dist/index.html
+
 ### Install
 
 Install this project with:
