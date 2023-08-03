@@ -5,7 +5,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
@@ -34,8 +33,6 @@
 </details>
 
 ### Key Features <a name="key-features"></a>
-
-- **[Add books, set book to local storage, Remove and Edit features]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
