@@ -27,12 +27,12 @@
 }
 
 .list-items li:nth-child(odd) {
-  background-color: rgb(49, 128, 192);
+  background-color: rgb(87, 219, 26);
 }
 
 .list-items {
   list-style: none;
-  border: 2px solid rgb(18, 165, 109);
+  border: 2px solid rgb(66, 231, 15);
   font-weight: 600;
   padding: 0;
 }
