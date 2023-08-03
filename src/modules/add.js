@@ -2,7 +2,7 @@ let ScoresArray = [];
 
 export const addtoLocalStorage = () => {
   localStorage.setItem('data', JSON.stringify(ScoresArray));
-}
+};
 
 export const displayScores = () => {
   const listItems = document.querySelector('.list-items');
