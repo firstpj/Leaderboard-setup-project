@@ -34,7 +34,7 @@ export const addScores = () => {
   displayScores();
 }
 
-export function loadtoLocalStorage() {
+export const loadtoLocalStorage = () => {
   const dataValue = localStorage.getItem('data');
   if (dataValue) {
     ScoresArray = JSON.parse(dataValue);
