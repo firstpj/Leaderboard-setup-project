@@ -76,6 +76,8 @@ Run npm dev to view the project on local host(npm run dev)
 - Twitter: [@AkordaC](https://twitter.com/AkordaC)
 - LinkedIn: [Collins Akorda](https://www.linkedin.com/in/collins-akorda-bb46b2232/)
 
+**[live demo]**https://firstpj.github.io/Leaderboard-setup-project/dist/index.html
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
