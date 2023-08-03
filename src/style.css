@@ -7,14 +7,17 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding: 100px;
+  padding: 80px;
   margin: 3% 16%;
 }
 
 .listCard {
   display: flex;
   flex-direction: column;
-  padding: 5em;
+  padding: 0.5%;
+  padding-left: 0.2%;
+  padding-top: 6%;
+  padding-bottom: 0.2%;
 }
 
 .listCardHeader {
@@ -54,3 +57,10 @@ form button {
   margin-top: 25px;
   height: max-content;
 }
+
+@media only screen and (min-width: 650px) {
+  .col-md-5 {
+    width: 40%;
+  }
+}
+
