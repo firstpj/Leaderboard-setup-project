@@ -1,10 +1,10 @@
 let ScoresArray = [];
 
-export function addtoLocalStorage() {
+export const addtoLocalStorage = () => {
   localStorage.setItem('data', JSON.stringify(ScoresArray));
 }
 
-export function displayScores() {
+export const displayScores = () => {
   const listItems = document.querySelector('.list-items');
   listItems.innerHTML = '';
 
@@ -18,7 +18,7 @@ export function displayScores() {
   });
 }
 
-export function addScores() {
+export const addScores = () => {
   const person = document.querySelector('#name');
   const score = document.querySelector('#score');
   if ((person !== '') && (score !== '')) {
