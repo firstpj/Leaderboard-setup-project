@@ -51,9 +51,6 @@ Installed node.js and any IDE like Visual Studio Code.
 Clone this repository to your desired folder:
 https://github.com/firstpj/leaderboard-setup-project.git
 
-**[live demo]**https://firstpj.github.io/Leaderboard-setup-project/dist/index.html
-
-Change directory Todo-List in your terminal
 ### Install
 
 Install this project with:
@@ -74,6 +71,8 @@ Run npm dev to view the project on local host(npm run dev)
 - GitHub: [@firstpj](https://github.com/firstpj)
 - Twitter: [@AkordaC](https://twitter.com/AkordaC)
 - LinkedIn: [Collins Akorda](https://www.linkedin.com/in/collins-akorda-bb46b2232/)
+
+**[live demo]**https://firstpj.github.io/Leaderboard-setup-project/dist/index.html
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

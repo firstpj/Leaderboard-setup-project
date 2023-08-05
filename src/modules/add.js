@@ -1,10 +1,10 @@
 let ScoresArray = [];
 
-export function addtoLocalStorage() {
+export const addtoLocalStorage = () => {
   localStorage.setItem('data', JSON.stringify(ScoresArray));
-}
+};
 
-export function displayScores() {
+export const displayScores = () => {
   const listItems = document.querySelector('.list-items');
   listItems.innerHTML = '';
 
@@ -16,9 +16,9 @@ export function displayScores() {
     listItems.appendChild(firstItem);
     addtoLocalStorage();
   });
-}
+};
 
-export function addScores() {
+export const addScores = () => {
   const person = document.querySelector('#name');
   const score = document.querySelector('#score');
   if ((person !== '') && (score !== '')) {
@@ -32,12 +32,12 @@ export function addScores() {
     addtoLocalStorage();
   }
   displayScores();
-}
+};
 
-export function loadtoLocalStorage() {
+export const loadtoLocalStorage = () => {
   const dataValue = localStorage.getItem('data');
   if (dataValue) {
     ScoresArray = JSON.parse(dataValue);
     displayScores();
   }
-}
+};

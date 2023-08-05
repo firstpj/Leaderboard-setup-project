@@ -1,25 +1,69 @@
-* {
-  margin: 0;
-  box-sizing: border-box;
+body {
+  background-color: rgb(89, 223, 62);
 }
 
-.body {
+h1 {
+  margin-left: 8em;
+  color: rgb(163, 5, 39);
+  position: relative;
+}
+
+@keyframes move {
+  0% {
+    color: rgb(94, 255, 0);
+    left: 0;
+    top: 0;
+  }
+
+  25% {
+    color: rgb(18, 149, 112);
+    left: 200px;
+    top: 0;
+  }
+
+  50% {
+    color: rgb(0, 21, 255);
+    left: 200px;
+    top: 10px;
+  }
+
+  75% {
+    color: rgb(239, 16, 172);
+    left: 0;
+    top: 10px;
+  }
+
+  100% {
+    color: rgb(238, 255, 0);
+    left: 0;
+    top: 0;
+  }
+}
+
+.container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding: 100px;
-  margin: 3% 16%;
+  padding: 48px;
+  margin: 2% 16%;
 }
 
-.listCard {
+.dataCard {
   display: flex;
   flex-direction: column;
-  padding: 5em;
 }
 
-.listCardHeader {
+.dataCardHeader {
   display: flex;
-  gap: 20px;
+  gap: 25px;
+  color: rgb(87, 148, 58);
+}
+
+.list-items {
+  list-style: none;
+  border: 2px solid black;
+  font-weight: 600;
+  padding: 0;
 }
 
 .list-items li {
@@ -27,14 +71,11 @@
 }
 
 .list-items li:nth-child(odd) {
-  background-color: rgb(49, 128, 192);
+  background-color: rgb(220, 216, 216);
 }
 
-.list-items {
-  list-style: none;
-  border: 2px solid rgb(18, 165, 109);
-  font-weight: 600;
-  padding: 0;
+h3 {
+  color: rgb(87, 148, 58);
 }
 
 form {
@@ -53,4 +94,20 @@ form button {
 .dataCard button {
   margin-top: 25px;
   height: max-content;
+}
+
+input {
+  padding: 5px;
+  outline: none;
+  color: rgb(87, 148, 58);
+}
+
+form button:hover {
+  background-color: rgb(87, 148, 58);
+  cursor: pointer;
+}
+
+.dataCard button:hover {
+  background-color: rgb(87, 148, 58);
+  cursor: pointer;
 }

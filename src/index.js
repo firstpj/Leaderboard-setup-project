@@ -1,5 +1,5 @@
 import './style.css';
-import { addScores, loadtoLocalStorage, displayScores } from '../modules/add.js';
+import { addScores, loadtoLocalStorage, displayScores } from './modules/add.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   loadtoLocalStorage();

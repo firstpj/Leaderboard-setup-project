@@ -4,27 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leaderboard</title>
-    <script defer src="index.html"></script>
+<script defer src="index.html"></script>
 </head>
 <body>
     <h1>Leaderboard</h1>
-    <body class="body">
-        <div class="listCard">
-            <div class="listCardHeader">
+    <div class="container">
+        <div class="dataCard">
+            <div class="dataCardHeader">
                 <h2>Recent Scores</h2>
-                <button type="button" onclick="window.location.reload()">Refresh</button>
+                <button type="button" id="refresh">Refresh</button>
             </div>
            
             <div class="list">
-                <ul  class="list-items"></ul>
+                <ul  class="list-items" id="list-items"></ul>
             </div>
         </div>
 
         <div class="inputCard">
             <h3>Add your scores</h3>
+            
             <form action="#" method="post" id="form">
-             <input type="text" placeholder="Your name" id="name" required />
-             <input type="number" placeholder="Your score" id="score" required/>
+             <input type="text" placeholder="Your name" id="name" name="name" required />
+             <input type="number" placeholder="Your score" id="score" name="score" required/>
              <button type="submit"  id="enter">submit</button>
               
             </form>
