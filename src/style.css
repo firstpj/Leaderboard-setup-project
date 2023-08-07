@@ -40,7 +40,7 @@ h1 {
   }
 }
 
-.container {
+.main-container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -48,12 +48,12 @@ h1 {
   margin: 2% 16%;
 }
 
-.dataCard {
+.data-Card {
   display: flex;
   flex-direction: column;
 }
 
-.dataCardHeader {
+.dataCard-Header {
   display: flex;
   gap: 25px;
   color: rgb(87, 148, 58);
