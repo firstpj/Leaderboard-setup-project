@@ -64,8 +64,9 @@ Run npm install --save to install dependencies of this project.
 
 ### Usage
 
-To run the project, execute the following command:
-Run npm dev to view the project on local host(npm run dev) 
+Run the following command to start the local server:
+
+npm run dev
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
